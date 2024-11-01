@@ -1,0 +1,22 @@
+{
+  "name": "send-notifications",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "14.X"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.7.0",
+    "google-auth-library": "^9.14.2",
+    "node-fetch": "^3.3.2"
+  }
+}
